@@ -18,7 +18,6 @@ def checkInclusion_01(s1: str, s2: str) -> bool:
     right = len(s1)
 
     while right <= len(s2):
-        # __val = s2[left:right] # used for debugging
         test_dict = {val: s2[left:right].count(val) for val in s2[left:right]}
         if test_dict == local_dict:
             return True
