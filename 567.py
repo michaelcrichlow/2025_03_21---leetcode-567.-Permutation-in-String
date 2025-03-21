@@ -1,3 +1,4 @@
+# Works, but MEMORY LIMIT EXCEEDED
 def checkInclusion_00(s1: str, s2: str) -> bool:
     permutations = get_permutations(s1)
     for val in permutations:
