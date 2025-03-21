@@ -7,6 +7,7 @@ def checkInclusion_00(s1: str, s2: str) -> bool:
     return False
 
 
+# Works, but TIME LIMIT EXCEEDED
 def checkInclusion_01(s1: str, s2: str) -> bool:
     # instead of getting all the permutations, you can use a dictionary
     # to map the values to how many times the value appears
